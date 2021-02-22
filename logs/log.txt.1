@@ -1,0 +1,805 @@
+INFO  2021-02-06 20:28:48,772 3064024ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:28:54,134 3069387ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:28:54,135 3069388ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:29:03,217 3078469ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:29:03,219 3078471ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:29:04,669 3079922ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:29:04,670 3079923ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:29:09,031 3084284ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:29:09,032 3084285ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:29:12,181 3087434ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:29:12,182 3087435ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:29:22,872 3098125ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:29:22,874 3098127ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:29:32,070 3107322ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:29:32,071 3107323ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:29:40,336 3115589ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 192
+INFO  2021-02-06 20:29:40,337 3115590ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 192
+ERROR 2021-02-06 20:30:57,790 58359ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:30:57,840 58409ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:30:58,122 58691ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:30:58,123 58692ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:30:58,325 58895ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:30:58,326 58896ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:30:58,563 59132ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:30:58,564 59133ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:30:58,802 59371ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:30:58,803 59372ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:30:59,036 59606ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:30:59,037 59607ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:30:59,310 59879ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:30:59,311 59880ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:30:59,529 60098ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:30:59,532 60101ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:30:59,740 60309ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:30:59,741 60310ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:30:59,970 60539ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:30:59,971 60540ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:00,427 60996ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:00,428 60997ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:00,847 61416ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:00,849 61418ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:01,100 61669ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:01,101 61670ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:01,313 61883ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:01,314 61884ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:01,561 62130ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:01,562 62131ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:01,784 62353ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:01,785 62354ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:02,137 62706ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:02,139 62708ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:02,430 63000ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:02,431 63001ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:02,872 63441ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:02,873 63442ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:03,566 64136ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:03,567 64137ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:05,037 65607ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:05,038 65608ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:07,835 68404ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:07,836 68405ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:08,034 68604ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:08,035 68605ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:14,963 75532ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:14,964 75533ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:26,885 87454ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:26,887 87456ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:42,741 103311ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:31:42,742 103312ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:31:49,385 109954ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190

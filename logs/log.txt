@@ -1,0 +1,380 @@
+INFO  2021-02-06 20:31:49,386 109955ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:32:25,093 145662ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 192
+INFO  2021-02-06 20:32:25,095 145664ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 192
+ERROR 2021-02-06 20:33:15,252 195821ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:33:15,253 195822ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:33:33,406 213976ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:33:33,407 213977ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:33:46,412 226981ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:33:46,414 226983ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:34:00,513 241082ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-06 20:34:00,514 241083ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-06 20:34:26,155 266725ms dministratorController etAirlineFromRedis - ServiceStack.LicenseException: The free-quota limit on '6000 Redis requests per hour' has been reached. Please see https://servicestack.net to upgrade to a commercial license or visit https://github.com/ServiceStackV3/ServiceStackV3 to revert back to the free ServiceStack v3.
+   at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 192
+INFO  2021-02-06 20:34:26,156 266726ms dministratorController etAirlineFromRedis -    at ServiceStack.LicenseUtils.ApprovedUsage(LicenseFeature licenseFeature, LicenseFeature requestedFeature, Int32 allowedUsage, Int32 actualUsage, String message)
+   at ServiceStack.LicenseUtils.AssertValidUsage(LicenseFeature feature, QuotaType quotaType, Int32 count)
+   at ServiceStack.Redis.RedisNativeClient.WriteCommandToSendBuffer(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 192
+ERROR 2021-02-06 20:41:08,411 379133ms dministratorController CreateNewAirline   - System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__AirlineC__306783D194E52BA1'. Cannot insert duplicate key in object 'dbo.AirlineCompanies'. The duplicate key value is (22, 2222).
+The statement has been terminated.
+   at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ClientConnectionId:99084659-bc35-4491-b637-78dcd6e8535f
+Error Number:2627,State:1,Class:14
+INFO  2021-02-06 20:41:08,473 379194ms dministratorController CreateNewAirline   -    at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ERROR 2021-02-06 20:42:32,831 463553ms dministratorController CreateNewAirline   - System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__AirlineC__306783D194E52BA1'. Cannot insert duplicate key in object 'dbo.AirlineCompanies'. The duplicate key value is (22, 2222).
+The statement has been terminated.
+   at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ClientConnectionId:8159dddd-ddae-4068-b6cd-295e07f36d4d
+Error Number:2627,State:1,Class:14
+INFO  2021-02-06 20:42:32,832 463554ms dministratorController CreateNewAirline   -    at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ERROR 2021-02-06 21:01:13,759 479086ms dministratorController CreateNewAirline   - System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__AirlineC__306783D194E52BA1'. Cannot insert duplicate key in object 'dbo.AirlineCompanies'. The duplicate key value is (22, e).
+The statement has been terminated.
+   at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ClientConnectionId:1ca7114a-0395-487a-b6b2-641e8774051b
+Error Number:2627,State:1,Class:14
+INFO  2021-02-06 21:01:13,814 479141ms dministratorController CreateNewAirline   -    at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ERROR 2021-02-06 21:24:38,995 261290ms dministratorController CreateNewAirline   - System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__AirlineC__306783D194E52BA1'. Cannot insert duplicate key in object 'dbo.AirlineCompanies'. The duplicate key value is (w, q).
+The statement has been terminated.
+   at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ClientConnectionId:acf72f65-9225-4423-a592-5ec6ac949934
+Error Number:2627,State:1,Class:14
+INFO  2021-02-06 21:24:39,052 261347ms dministratorController CreateNewAirline   -    at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ERROR 2021-02-06 21:25:04,867 287162ms dministratorController CreateNewAirline   - System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__AirlineC__306783D194E52BA1'. Cannot insert duplicate key in object 'dbo.AirlineCompanies'. The duplicate key value is (w, q).
+The statement has been terminated.
+   at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ClientConnectionId:acf72f65-9225-4423-a592-5ec6ac949934
+Error Number:2627,State:1,Class:14
+INFO  2021-02-06 21:25:04,868 287163ms dministratorController CreateNewAirline   -    at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ERROR 2021-02-06 21:26:29,460 371755ms dministratorController CreateNewAirline   - System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__AirlineC__306783D194E52BA1'. Cannot insert duplicate key in object 'dbo.AirlineCompanies'. The duplicate key value is (w, q).
+The statement has been terminated.
+   at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ClientConnectionId:acf72f65-9225-4423-a592-5ec6ac949934
+Error Number:2627,State:1,Class:14
+INFO  2021-02-06 21:26:29,461 371756ms dministratorController CreateNewAirline   -    at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 41
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 16
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ERROR 2021-02-08 15:59:50,550 67899ms dministratorController etAirlineFromRedis - ServiceStack.Redis.RedisException: Exceeded timeout of 00:00:10 ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:6379
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at ServiceStack.Redis.RedisNativeClient.Connect()
+   at ServiceStack.Redis.RedisNativeClient.TryConnectIfNeeded()
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   --- End of inner exception stack trace ---
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-08 15:59:50,586 67935ms dministratorController etAirlineFromRedis -    at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-09 23:55:58,762 115286ms dministratorController CreateNewAirline   - System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__AirlineC__306783D194E52BA1'. Cannot insert duplicate key in object 'dbo.AirlineCompanies'. The duplicate key value is (test, test).
+The statement has been terminated.
+   at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 45
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 20
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ClientConnectionId:3412a241-abdb-4af3-87a1-878484be35fd
+Error Number:2627,State:1,Class:14
+INFO  2021-02-09 23:55:58,821 115345ms dministratorController CreateNewAirline   -    at AirPlaneProjact.DAO.AirLineDAOMSSQL.Add(AirlineCompanie t) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\DAO\AirLIneDAOMSSQL\AirLineDAOMSSQL.cs:line 45
+   at AirPlaneProjact.BLL.LoggedInAdministratorFacad.CreateNewAirline(LoginToken`1 token, AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\AirPlaneProjact\BLL\AdminstatorClass\LoggedInAdministratorFacad.cs:line 20
+   at WebApplication1.Controllers.AdministratorController.CreateNewAirline(AirlineCompanie airline) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 35
+ERROR 2021-02-17 19:25:39,662 31000ms dministratorController etAirlineFromRedis - ServiceStack.Redis.RedisException: Exceeded timeout of 00:00:10 ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:6379
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at ServiceStack.Redis.RedisNativeClient.Connect()
+   at ServiceStack.Redis.RedisNativeClient.TryConnectIfNeeded()
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   --- End of inner exception stack trace ---
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-17 19:25:39,712 31050ms dministratorController etAirlineFromRedis -    at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-21 20:42:49,076 7770395ms dministratorController etAirlineFromRedis - ServiceStack.Redis.RedisException: Exceeded timeout of 00:00:10 ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:6379
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at ServiceStack.Redis.RedisNativeClient.Connect()
+   at ServiceStack.Redis.RedisNativeClient.TryConnectIfNeeded()
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   --- End of inner exception stack trace ---
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-21 20:42:49,121 7770440ms dministratorController etAirlineFromRedis -    at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-21 20:42:59,550 7780870ms dministratorController etAirlineFromRedis - ServiceStack.Redis.RedisException: Exceeded timeout of 00:00:10 ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:6379
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at ServiceStack.Redis.RedisNativeClient.Connect()
+   at ServiceStack.Redis.RedisNativeClient.TryConnectIfNeeded()
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   --- End of inner exception stack trace ---
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-21 20:42:59,551 7780871ms dministratorController etAirlineFromRedis -    at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-21 20:43:09,942 7791261ms dministratorController etAirlineFromRedis - ServiceStack.Redis.RedisException: Exceeded timeout of 00:00:10 ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:6379
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at ServiceStack.Redis.RedisNativeClient.Connect()
+   at ServiceStack.Redis.RedisNativeClient.TryConnectIfNeeded()
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   --- End of inner exception stack trace ---
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-21 20:43:09,942 7791261ms dministratorController etAirlineFromRedis -    at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-21 20:43:20,334 7801653ms dministratorController etAirlineFromRedis - ServiceStack.Redis.RedisException: Exceeded timeout of 00:00:10 ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:6379
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at ServiceStack.Redis.RedisNativeClient.Connect()
+   at ServiceStack.Redis.RedisNativeClient.TryConnectIfNeeded()
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   --- End of inner exception stack trace ---
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-21 20:43:20,334 7801653ms dministratorController etAirlineFromRedis -    at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+ERROR 2021-02-22 19:09:43,884 113951ms dministratorController etAirlineFromRedis - ServiceStack.Redis.RedisException: Exceeded timeout of 00:00:10 ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:6379
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at ServiceStack.Redis.RedisNativeClient.Connect()
+   at ServiceStack.Redis.RedisNativeClient.TryConnectIfNeeded()
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   --- End of inner exception stack trace ---
+   at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
+INFO  2021-02-22 19:09:43,946 114014ms dministratorController etAirlineFromRedis -    at ServiceStack.Redis.RedisNativeClient.SendReceive[T](Byte[][] cmdWithBinaryArgs, Func`1 fn, Action`1 completePipelineFn, Boolean sendWithoutRead)
+   at ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   at ServiceStack.Redis.RedisNativeClient.GetBytes(String key)
+   at ServiceStack.Redis.RedisClient.<>c__DisplayClass144_0`1.<Get>b__0(RedisClient r)
+   at ServiceStack.Redis.RedisClient.Exec[T](Func`2 action)
+   at ServiceStack.Redis.RedisClient.Get[T](String key)
+   at WebApplication1.Controllers.SetRedis.Get(String host, String key) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Models\SetRedis.cs:line 30
+   at WebApplication1.Controllers.AdministratorController.GetAirlineFromRedis(AdministratorDal admin) in C:\Users\ronca\source\repos\AirPlaneProjact\WebApplication1\Controllers\AdministratorController.cs:line 190
