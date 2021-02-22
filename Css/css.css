@@ -1,0 +1,18 @@
+﻿
+#mainPage {
+    text-align: center;
+    
+}
+
+
+#uiDiv {
+    width: 33%;
+    height: 500px;
+    float: left;
+}
+#sideDiv {
+    float: left;
+    width: 33%;
+ 
+    height: 500px;
+}
